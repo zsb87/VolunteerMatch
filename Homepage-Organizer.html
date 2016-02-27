@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>1hrV</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="btn-group btn-toggle">
+            <button class="btn btn-sm btn-default Volunteer">Volunteer</button>
+            <button class="btn btn-sm btn-primary active">Organizer</button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <img src="" alt="" />
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="input-group">
+            <input type="text" class="search-query form-control" placeholder="Search" />
+            <span class="input-group-btn">
+              <button class="btn btn-danger" type="button">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div id="Oganizer" class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="text-align: center">
+            <a href="Profile.html"><img id="ProfileImage" src="Images/ben.png"></a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <div class="row well">
+            Organizer Publish Opportunity
+          </div>
+          <div class="row well">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+              <form class="form-horizontal" role="form">
+                <div class="form-group">
+                  <label for="Title" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Title</label>
+                  <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <input type="text" class="form-control" id="Title">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="Date" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Date</label>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <input type="text" class="form-control" id="Date">
+                  </div>
+                  <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="text-align: center">
+                    <h4>/</h4>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <input type="text" class="form-control" id="Date">
+                  </div>
+                  <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="text-align: center">
+                    <h4>/</h4>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <input type="text" class="form-control" id="Date">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="Time" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Time</label>
+                  <div class="col-xs-4">
+                    <input type="text" class="form-control" id="Title">
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="text-align: center">
+                    <h4>To</h4>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <input type="text" class="form-control" id="Title">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="Addree" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Address</label>
+                  <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <input type="text" class="form-control" id="Address">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="City" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">City</label>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <input type="text" class="form-control" id="City">
+                  </div>
+                  <label for="Zip" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Zip</label>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <input type="text" class="form-control" id="Zip">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="Details" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Details</label>
+                  <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <input type="text" class="form-control" id="Details" style="height: 125px">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="Picture" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label">Picture</label>
+                  <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <button type="button" class="btn btn-default col-lg-4">Upload</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="margin-top: 100px">
+              <div class="form-group" style="text-align: center">
+                <label for="Number of Volunteer" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label">Number of Volunteers</label>
+                <div class="btn-group" role="group">
+                    <div class="btn-group" role="group">
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        1
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">7</a></li>
+                        <li><a href="#">8</a></li>
+                        <li><a href="#">9</a></li>
+                        <li><a href="#">10</a></li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-lg-offset-8 col-md-2 col-sm-2 col-xs-2">
+              <button type="button" class="btn btn-default">Cancel</button>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <button type="button" class="btn btn-default">Submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+
+        </div>
+      </div>
+
+    </div>
+  </body>
+
+  <footer>
+    <script src="Javascript/jquery-2.2.1.min.js"></script>
+    <script src="Javascript/bootstrap.min.js"></script>
+    <script src="Javascript/PageController.js"></script>
+  </footer>
+
+</html>
